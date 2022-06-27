@@ -3,6 +3,7 @@
     font-family: 'Raleway', sans-serif;
 }
 
+
 nav{padding: 1.5em 0em;margin: 0 0 5em 0;}
 footer{margin-top: 5em;}
 nav li a{
@@ -34,14 +35,19 @@ nav li:hover  hr{width: 100%; border-top: 4px solid #212121;transition: width 0.
     justify-content: center;
 }
 
-/*CASE STUDY COVER*/
+/*CARD*/
+.card-image{overflow: hidden;}
+.card .card-image .card-title{font-size: 1.2em;}
+.card .card-image img{margin-top: 4vh;}
+.card .card-image .card-title{top: 0; bottom: inherit;color:#2196f3;}
 
+.card-image img{transform: scale(1.0);transition: all 0.8s ease-in-out;}
+.card-image img:hover{transform: scale(1.1);transition: all 0.5s ease-in-out;}
+
+/*CASE STUDY COVER*/
 .casees a{padding: 0px !important;overflow: hidden;}
 .casees p{margin-left: 1em;}
 
-.casees a:nth-last-child(2) .cover_case{background-image: url(../img/case10.png);}
-.casees a:nth-last-child(1) .cover_case{background-image: url(../img/case4.1.png);}
-.casees a:nth-last-child(1){background-color:#cae2f3!important;}
 
 .casees a .cover_case{
     margin: 0em;
@@ -202,8 +208,7 @@ iframe{
     height: 100vh;
     width: 100%;
     /*background: linear-gradient(90deg, rgba(254, 243, 226, 0) 0%, rgba(254, 243, 226, 0.8) 24.48%, #FEF3E2 50%, rgba(254, 243, 226, 0.8) 78.12%, rgba(254, 243, 226, 0) 100%);*/
-    background: linear-gradient(90deg, rgba(217, 217, 217, 0) 0%, rgba(217, 217, 217, 0.7) 37.5%, rgba(217, 217, 217, 0.7) 71.35%, rgba(217, 217, 217, 0) 100%);
-    background-color: white;
+    background: linear-gradient(90deg, rgba(248, 247, 254, 0) 0%, rgba(240, 237, 255, 0.7) 44.27%, rgba(240, 237, 255, 0.7) 56.25%, rgba(248, 247, 254, 0) 100%), #FFFFFF;    background-color: white;
     position: fixed;
     top: 0;
     left: 0;
@@ -237,6 +242,7 @@ figcaption{text-align: center!important;margin: 2em 0px;}
     }
 
     .casees a:first-of-type {margin-bottom: 5em;}
+    .row div:first-of-type{margin-bottom: 4vh;}
 }
 @media only screen and (min-width: 993px) {
     .casees a{margin-left: 6% !important; margin-bottom: 6% !important;}
