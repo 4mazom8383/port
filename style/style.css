@@ -148,8 +148,10 @@ nav ul li{
 }
 .case> .cover img:hover{max-width: 118% !important;transition: all 0.5s ease-in-out;}
 .case_study p, .case_study ul>li{text-align: justify;line-height: 180%;}
-.case_study ul>li{list-style-type: circle;}
-.case_study .dots{width: 100%; display: flex; justify-content: center;}
+.case_study ul>li{list-style-type: disc;}
+.case_study .dots{width: 100%; display: flex; justify-content: center;word-spacing: 2em; font-weight: bold;height: 11vh; align-items: center;}
+
+::marker{font-weight: 500;}
 /*----
 .social_media li, .social_media a{
     display: inline-block;
