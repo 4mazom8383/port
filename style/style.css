@@ -3,7 +3,6 @@
     font-family: 'Raleway', sans-serif;
 }
 
-
 nav{padding: 1.5em 0em;margin: 0 0 5em 0;}
 footer{margin-top: 5em;}
 nav li a{
@@ -38,12 +37,12 @@ nav li:hover  hr{width: 100%; border-top: 4px solid #212121;transition: width 0.
 /*CARD*/
 .card-image{overflow: hidden;}
 .card .card-image .card-title{font-size: 1.2em;}
-.card .card-image img{margin-top: 4vh;}
+.casees .card .card-image img{margin-top: 4vh;}
 .card .card-image .card-title{top: 0; bottom: inherit;color:#2196f3;}
 
-.card-image img{transform: scale(1.0);transition: all 0.8s ease-in-out;}
+.card-image img, .dribbble img{transform: scale(1.0);transition: all 0.8s ease-in-out;}
 .card-image img:hover{transform: scale(1.1);transition: all 0.5s ease-in-out;}
-
+.dribbble img:hover{transform: scale(1.2);transition: all 0.5s ease-in-out;}
 /*CASE STUDY COVER*/
 .casees a{padding: 0px !important;overflow: hidden;}
 .casees p{margin-left: 1em;}
@@ -111,11 +110,13 @@ nav ul li{
     -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
     filter: grayscale(0%);
     transition: filter 0.3s ease-in-out;
+    transform: scale(1.0);
 }
 .profile img:hover{
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
     transition: filter 0.3s ease-in-out;
+    transform: scale(1.2);
 }
 .bio a{    border: 2px solid #eaeaea;  border-radius: 4px;}
 
@@ -152,6 +153,15 @@ nav ul li{
 .case_study .dots{width: 100%; display: flex; justify-content: center;word-spacing: 2em; font-weight: bold;height: 11vh; align-items: center;}
 
 ::marker{font-weight: 500;}
+/*==UIs ==*/
+.uis div {padding: 0.75rem 0.75rem !important;}
+.uis div:nth-child(4) a div, .uis div:nth-child(12) a div{background: linear-gradient(216.5deg, #DCDCDF 21.26%, #B5B5C8 74.32%);}
+.uis div:nth-child(5) a div{background: linear-gradient(135deg, #FFFFFF 0%, #A1A1A1 100%);}
+.uis div:nth-child(7) a div{background: linear-gradient(135deg, #F2F2F2 0%, #ABAEB9 100%);}
+.uis div:nth-child(8) a div, .uis div:nth-child(13) a div{background: linear-gradient(216.5deg, #DCDCDF 21.26%, #B5B5C8 74.32%);}
+.uis div:nth-child(9) a div{background: linear-gradient(100.57deg, #4D4946 7.86%, #85807D 92.14%);}
+.uis div:nth-child(14) a div{background: linear-gradient(196.58deg, #F2F2F2 11.47%, #A1A1A1 88.53%);}
+.uis div:nth-child(15) a div{background: linear-gradient(157.02deg, #D2D2D2 14.89%, #EEEEEE 101.26%);}
 /*----
 .social_media li, .social_media a{
     display: inline-block;
