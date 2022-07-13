@@ -109,14 +109,14 @@ nav ul li{
 .profile img{
     -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
     filter: grayscale(0%);
-    transition: filter 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
     transform: scale(1.0);
 }
 .profile img:hover{
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
-    transition: filter 0.3s ease-in-out;
-    transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.1);
 }
 .bio a{    border: 2px solid #eaeaea;  border-radius: 4px;}
 
@@ -159,7 +159,7 @@ nav ul li{
 .uis div:nth-child(5) a div{background: linear-gradient(135deg, #FFFFFF 0%, #A1A1A1 100%);}
 .uis div:nth-child(7) a div{background: linear-gradient(135deg, #F2F2F2 0%, #ABAEB9 100%);}
 .uis div:nth-child(8) a div, .uis div:nth-child(13) a div{background: linear-gradient(216.5deg, #DCDCDF 21.26%, #B5B5C8 74.32%);}
-.uis div:nth-child(9) a div{background: linear-gradient(100.57deg, #4D4946 7.86%, #85807D 92.14%);}
+.uis div:nth-child(9) a div, .uis div:nth-child(3) a div{background: linear-gradient(100.57deg, #4D4946 7.86%, #85807D 92.14%);}
 .uis div:nth-child(14) a div{background: linear-gradient(196.58deg, #F2F2F2 11.47%, #A1A1A1 88.53%);}
 .uis div:nth-child(15) a div{background: linear-gradient(157.02deg, #D2D2D2 14.89%, #EEEEEE 101.26%);}
 /*----
@@ -190,6 +190,9 @@ iframe{
     margin-bottom: 2vh;
     float: auto!important;
 }
+
+.modal{overflow-y: hidden !important;}
+/*
 .modal-content>img{
     width: 55%;
     margin: 0 auto;
@@ -204,7 +207,7 @@ iframe{
     position: absolute;
     left: 0%;
     top: 0%; 
-}
+}*/
 
 .title{
     margin: 8vh 0;
@@ -270,10 +273,10 @@ figcaption{text-align: center!important;margin: 2em 0px;}
         height: 100%;
     }
     .bio h2{margin: 0 0 15px 0;}
-    /*nav{margin: 0 0 8vh 0;}*/
+    /*nav{margin: 0 0 8vh 0;}
     .modal-content>img{width: 60%;}
     .v_img>.modal-content>img{width: 35%;}
-    .modal{top: 5% !important;}
+    .modal{top: 5% !important;}*/
 }
 
 @media only screen and (max-width: 1250px){
@@ -285,8 +288,8 @@ figcaption{text-align: center!important;margin: 2em 0px;}
         margin-top: 8vh;
     }
     nav img{width: 80%;}
-    .modal-content>img{width: 100%;}
-    .modal{width: 90%!important;}    
+    /*.modal-content>img{width: 100%;}
+    .modal{width: 90%!important;}    */
 
     
 
