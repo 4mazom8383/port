@@ -159,7 +159,7 @@ nav ul li{
 .uis div:nth-child(5) a div{background: linear-gradient(135deg, #FFFFFF 0%, #A1A1A1 100%);}
 .uis div:nth-child(7) a div{background: linear-gradient(135deg, #F2F2F2 0%, #ABAEB9 100%);}
 .uis div:nth-child(8) a div, .uis div:nth-child(13) a div{background: linear-gradient(216.5deg, #DCDCDF 21.26%, #B5B5C8 74.32%);}
-.uis div:nth-child(9) a div, .uis div:nth-child(3) a div{background: linear-gradient(100.57deg, #4D4946 7.86%, #85807D 92.14%);}
+.uis div:nth-child(9) a div{background: linear-gradient(100.57deg, #4D4946 7.86%, #85807D 92.14%);}
 .uis div:nth-child(14) a div{background: linear-gradient(196.58deg, #F2F2F2 11.47%, #A1A1A1 88.53%);}
 .uis div:nth-child(15) a div{background: linear-gradient(157.02deg, #D2D2D2 14.89%, #EEEEEE 101.26%);}
 /*----
